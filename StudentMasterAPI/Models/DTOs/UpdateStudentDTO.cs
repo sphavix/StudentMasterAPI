@@ -1,14 +1,11 @@
-﻿
-namespace StudentMasterAPI.Models.DTOs
+﻿namespace StudentMasterAPI.Models.DTOs
 {
-    public class StudentDTO
+    public class UpdateStudentDTO
     {
         public int StudentId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
-        public string Gender { get; set; }
-
         public string? Address { get; set; }
     }
 }
